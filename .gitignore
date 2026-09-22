@@ -1,0 +1,4 @@
+*_key
+*.pem
+screenshots/*.tmp
+.DS_Store
