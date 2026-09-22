@@ -128,7 +128,7 @@ Idempotency is non-negotiable in production automation. Every script must be saf
 
 **Cleanup is design, not afterthought** — you must know every file/mount/user your setup touched.
 
-##11. Conclusion
+## 11. Conclusion
 
 This assignment gave me end-to-end, hands-on exposure to the full lifecycle of a Linux service account — from creation, through load and stress testing, to hardening, monitoring, log management, and finally clean removal.
 

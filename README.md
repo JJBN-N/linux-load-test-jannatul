@@ -1,8 +1,11 @@
 # Linux Load Test Assignment — BongoDev
 
 **Student Name:** Jannatul
+
 **Service Account:** `bgdsvc_jannatul`
+
 **Environment:** Ubuntu (Linux)
+
 **Assignment:** Linux System Administration — Load Test, Hardening & Automation
 
 ---
@@ -44,6 +47,8 @@ By completing this assignment, I learned how to:
 ---
 
 ## 📁 Repository Structure
+
+```
 linux-load-test-jannatul/
 ├── README.md
 ├── observations.md 
@@ -69,11 +74,14 @@ linux-load-test-jannatul/
 ├── 05_logrotate.png 
 └── 06_cleanup_verify.png 
 
+```
+
 ## How to Run
-1. To set service name: `export SVC_NAME=bgdsvc_jannatul`
-2. `sudo env SVC_NAME=$SVC_NAME ./scripts/01_create_user.sh`
-3. `sudo env SVC_NAME=$SVC_NAME ./scripts/02_setup_tmpfs.sh`
-4. `sudo env SVC_NAME=$SVC_NAME ./scripts/03_stress_and_populate.sh`
-5. `Configure SSH, Cron, and Logrotate as per assignment`
-6. `sudo env SVC_NAME=$SVC_NAME ./scripts/04_cleanup.sh`
+
+1. To set service name: **export SVC_NAME=bgdsvc_jannatut**
+2. **sudo env SVC_NAME=$SVC_NAME ./scripts/01_create_user.sh**
+3. **sudo env SVC_NAME=$SVC_NAME ./scripts/02_setup_tmpfs.sh**
+4. **sudo env SVC_NAME=$SVC_NAME ./scripts/03_stress_and_populate.sh**
+5. **Configure SSH, Cron, and Logrotate as per assignment**
+6. **sudo env SVC_NAME=$SVC_NAME ./scripts/04_cleanup.sh**
 
